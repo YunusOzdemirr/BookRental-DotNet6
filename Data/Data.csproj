@@ -18,9 +18,7 @@
     <None Remove="Microsoft.EntityFrameworkCore.Tools" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Entityframework\" />
     <Folder Include="Entityframework\Context\" />
-    <Folder Include="Entityframework\Mapping\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.1" />
