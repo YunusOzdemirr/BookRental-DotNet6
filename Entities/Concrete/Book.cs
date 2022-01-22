@@ -8,7 +8,7 @@ namespace Entities.Concrete
         public string Name { get; set; }
         public int PageCount { get; set; }
         public ICollection<BookAndCategory>? BookAndCategories { get; set; }
-        public ICollection<BookPicture> BookPictures { get; set; }
+        public ICollection<BookPicture>? BookPictures { get; set; }
     }
 }
 
