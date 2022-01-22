@@ -16,6 +16,9 @@ namespace Data.Entityframework.Context
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new CategoryMap());
+            modelBuilder.ApplyConfiguration(new BookMap());
+            modelBuilder.ApplyConfiguration(new BookPictureMap());
+            modelBuilder.ApplyConfiguration(new BookAndCategoryMap());
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

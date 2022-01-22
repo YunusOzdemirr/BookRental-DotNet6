@@ -9,7 +9,6 @@ namespace Entities.Concrete
         public int PageCount { get; set; }
         public ICollection<BookAndCategory>? BookAndCategories { get; set; }
         public ICollection<BookPicture> BookPictures { get; set; }
-
         public int CustomerId { get; set; }
         public Customer Customer { get; set; }
     }
